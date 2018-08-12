@@ -99,24 +99,23 @@
 
 
 
-  <meta name="description" content="一、算术运算符余数运算符 % 运算结果的正负号由第一个运算子的正负号决定 12-1 % 2 // -11 % -2 // 1  为了得到负数的正确余数值，可以先使用绝对值函数">
-<meta property="og:type" content="article">
-<meta property="og:title" content="first_blog">
-<meta property="og:url" content="jerryzhang.xyz/2018/04/05/first-blog/index.html">
+  <meta property="og:type" content="article">
+<meta property="og:title" content="mybolg">
+<meta property="og:url" content="jerryzhang.xyz/2018/08/12/mybolg/index.html">
 <meta property="og:site_name" content="张杰的博客">
-<meta property="og:description" content="一、算术运算符余数运算符 % 运算结果的正负号由第一个运算子的正负号决定 12-1 % 2 // -11 % -2 // 1  为了得到负数的正确余数值，可以先使用绝对值函数">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2018-08-12T05:25:53.444Z">
+<meta property="og:image" content="/12/mybolg/test.jpeg">
+<meta property="og:updated_time" content="2018-08-12T07:11:15.370Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="first_blog">
-<meta name="twitter:description" content="一、算术运算符余数运算符 % 运算结果的正负号由第一个运算子的正负号决定 12-1 % 2 // -11 % -2 // 1  为了得到负数的正确余数值，可以先使用绝对值函数">
+<meta name="twitter:title" content="mybolg">
+<meta name="twitter:image" content="/12/mybolg/test.jpeg">
 
 
 
 
 
 
-  <link rel="canonical" href="jerryzhang.xyz/2018/04/05/first-blog/"/>
+  <link rel="canonical" href="jerryzhang.xyz/2018/08/12/mybolg/"/>
 
 
 
@@ -126,7 +125,7 @@
   };
 </script>
 
-  <title>first_blog | 张杰的博客</title>
+  <title>mybolg | 张杰的博客</title>
   
 
 
@@ -289,7 +288,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="jerryzhang.xyz/2018/04/05/first-blog/">
+    <link itemprop="mainEntityOfPage" href="jerryzhang.xyz/2018/08/12/mybolg/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="张杰">
@@ -306,7 +305,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">first_blog</h1>
+          <h1 class="post-title" itemprop="name headline">mybolg</h1>
         
 
         <div class="post-meta">
@@ -318,7 +317,7 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-04-05T22:25:29+08:00">2018-04-05</time>
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-08-12T15:08:20+08:00">2018-08-12</time>
             
 
             
@@ -335,7 +334,7 @@
 
           
           
-             <span id="/2018/04/05/first-blog/" class="leancloud_visitors" data-flag-title="first_blog">
+             <span id="/2018/08/12/mybolg/" class="leancloud_visitors" data-flag-title="mybolg">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -366,42 +365,7 @@
       
 
       
-        <h2 id="一、算术运算符"><a href="#一、算术运算符" class="headerlink" title="一、算术运算符"></a>一、算术运算符</h2><h4 id="余数运算符"><a href="#余数运算符" class="headerlink" title="余数运算符 %"></a>余数运算符 %</h4><ul>
-<li><p>运算结果的正负号由第一个运算子的正负号决定</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">-1 % 2 // -1</span><br><span class="line">1 % -2 // 1</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>为了得到负数的正确余数值，可以先使用绝对值函数</p>
-<a id="more"></a>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">function isOdd(n) &#123;</span><br><span class="line">  return Math.abs(n % 2) === 1;</span><br><span class="line">&#125;</span><br><span class="line">isOdd(-5) // true</span><br><span class="line">isOdd(-4) // false</span><br></pre></td></tr></table></figure>
-</li>
-</ul>
-<h4 id="负-数值运算符"><a href="#负-数值运算符" class="headerlink" title="(负)数值运算符 + -"></a>(负)数值运算符 + -</h4><p>数值运算符的作用在于可以将任何值转为数值（与Number函数的作用相同）<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">+true // 1</span><br><span class="line">+[] // 0</span><br><span class="line">+&#123;&#125; // NaN (NaN也是数值)</span><br></pre></td></tr></table></figure></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">var x = 1;</span><br><span class="line">-x // -1</span><br><span class="line">-(-x) // 1</span><br></pre></td></tr></table></figure>
-<h4 id="指数运算符"><a href="#指数运算符" class="headerlink" title="指数运算符 **"></a>指数运算符 **</h4><p>指数运算符（**）完成指数运算，前一个运算子是底数，后一个运算子是指数<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">2 ** 4 // 16</span><br></pre></td></tr></table></figure></p>
-<h2 id="二、比较运算符"><a href="#二、比较运算符" class="headerlink" title="二、比较运算符"></a>二、比较运算符</h2><h4 id="原始类型比较"><a href="#原始类型比较" class="headerlink" title="原始类型比较"></a>原始类型比较</h4><p>任何值（包括NaN本身）与NaN比较，返回的都是false<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">1 &gt; NaN // false</span><br><span class="line">1 &lt;= NaN // false</span><br><span class="line">&apos;1&apos; &gt; NaN // false</span><br><span class="line">&apos;1&apos; &lt;= NaN // false</span><br><span class="line">NaN &gt; NaN // false</span><br><span class="line">NaN &lt;= NaN // false</span><br><span class="line">NaN == NaN // false</span><br></pre></td></tr></table></figure></p>
-<h4 id="对象比较"><a href="#对象比较" class="headerlink" title="对象比较"></a>对象比较</h4><p>如果运算子是对象，会转为原始类型的值，再进行比较<br>对象转换成原始类型的值，算法是先调用valueOf方法；如果返回的还是对象，再接着调用toString方法<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">var x = [2];</span><br><span class="line">x &gt; &apos;11&apos; // true</span><br><span class="line">// 等同于 [2].valueOf().toString() &gt; &apos;11&apos;</span><br><span class="line">// 即 &apos;2&apos; &gt; &apos;11&apos;</span><br></pre></td></tr></table></figure></p>
-<p><strong>特别地：</strong> Date 对象实例用于比较时，是先调用toString方法。如果返回的不是原始类型的值，再接着对返回值调用valueOf方法</p>
-<h4 id="严格相等"><a href="#严格相等" class="headerlink" title="严格相等"></a>严格相等</h4><ol>
-<li><p>NaN与任何值都不相等（包括自身）。另外，正0等于负0</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">NaN === NaN  // false</span><br><span class="line">+0 === -0 // true</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>两个复合类型（对象、数组、函数）的数据比较时，不是比较它们的值是否相等，而是比较它们是否指向同一个地址</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;&#125; === &#123;&#125; // false</span><br><span class="line">[] === [] // false</span><br><span class="line">(function () &#123;&#125; === function () &#123;&#125;) // false</span><br></pre></td></tr></table></figure>
-</li>
-</ol>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">var v1 = &#123;&#125;;</span><br><span class="line">var v2 = v1;</span><br><span class="line">v1 === v2 // true</span><br></pre></td></tr></table></figure>
-<ol start="3">
-<li><p>对于两个对象的比较，严格相等运算符比较的是地址，而大于或小于运算符比较的是值</p>
-</li>
-<li><p>undefined和null与自身严格相等</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">undefined === undefined // true</span><br><span class="line">null === null // true</span><br></pre></td></tr></table></figure>
-</li>
-</ol>
-<p>undefined与null非严格相等<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">undefined == null // true</span><br></pre></td></tr></table></figure></p>
-<p>由于变量声明后默认值是undefined，因此两个只声明未赋值的变量是相等的<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">var v1;</span><br><span class="line">var v2;</span><br><span class="line">v1 === v2 // true</span><br></pre></td></tr></table></figure></p>
-<h2 id="布尔运算符"><a href="#布尔运算符" class="headerlink" title="布尔运算符"></a>布尔运算符</h2><h4 id="取反运算符-！"><a href="#取反运算符-！" class="headerlink" title="取反运算符 ！"></a>取反运算符 ！</h4><p>以下六个值取反后为true，其他值都为false</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">undefined</span><br><span class="line">null</span><br><span class="line">false</span><br><span class="line">0</span><br><span class="line">NaN</span><br><span class="line">空字符串（&apos;&apos;）</span><br></pre></td></tr></table></figure>
-<p><strong>注意：</strong><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">!&apos;&apos; // true</span><br><span class="line">!&apos; &apos; // false</span><br></pre></td></tr></table></figure></p>
+        <p><img src="/12/mybolg/test.jpeg" alt="test"></p>
 
       
     </div>
@@ -440,8 +404,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2018/04/05/hello-world/" rel="next" title="Hello World">
-                <i class="fa fa-chevron-left"></i> Hello World
+              <a href="/2018/04/05/first-blog/" rel="next" title="first_blog">
+                <i class="fa fa-chevron-left"></i> first_blog
               </a>
             
           </div>
@@ -449,10 +413,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2018/08/12/mybolg/" rel="prev" title="mybolg">
-                mybolg <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -501,17 +461,8 @@
       
 
       
-        <ul class="sidebar-nav motion-element">
-          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
-            文章目录
-          </li>
-          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
-            站点概览
-          </li>
-        </ul>
-      
 
-      <section class="site-overview-wrap sidebar-panel">
+      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -584,22 +535,6 @@
         </div>
       </section>
 
-      
-      <!--noindex-->
-        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
-          <div class="post-toc">
-
-            
-              
-            
-
-            
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#一、算术运算符"><span class="nav-number">1.</span> <span class="nav-text">一、算术运算符</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#余数运算符"><span class="nav-number">1.0.1.</span> <span class="nav-text">余数运算符 %</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#负-数值运算符"><span class="nav-number">1.0.2.</span> <span class="nav-text">(负)数值运算符 + -</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#指数运算符"><span class="nav-number">1.0.3.</span> <span class="nav-text">指数运算符 **</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#二、比较运算符"><span class="nav-number">2.</span> <span class="nav-text">二、比较运算符</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#原始类型比较"><span class="nav-number">2.0.1.</span> <span class="nav-text">原始类型比较</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#对象比较"><span class="nav-number">2.0.2.</span> <span class="nav-text">对象比较</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#严格相等"><span class="nav-number">2.0.3.</span> <span class="nav-text">严格相等</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#布尔运算符"><span class="nav-number">3.</span> <span class="nav-text">布尔运算符</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#取反运算符-！"><span class="nav-number">3.0.1.</span> <span class="nav-text">取反运算符 ！</span></a></li></ol></li></ol></li></ol></div>
-            
-
-          </div>
-        </section>
-      <!--/noindex-->
       
 
       
